@@ -1,0 +1,57 @@
+body { width: 800px;
+    margin: auto;
+    color: white;
+    }
+    
+    header {background: blue;
+    height: 50px;
+    text-align: center;
+    }
+    
+    nav {background: green;
+    height: 25px;
+    }
+    
+    
+    li {display: inline;
+    margin: 10px;
+    }
+    
+    a {color: white}
+    
+    article {
+        float:left;
+        background-color: pink;
+        text-align: center;
+        width: 533px; 
+        padding-bottom: 30px;
+        height: 275px;
+        color: whitesmoke;
+    
+    }
+    
+    section {
+        float:left;
+        background-color: red;
+        width: 533px;
+        padding-bottom: 100px;
+        margin-bottom: 20px;
+        text-align: center;
+    
+    }
+    
+    aside {
+        float:right;
+        background-color: cyan;
+        width: 267px; 
+        height: 305px;
+        text-align: center
+    }
+    
+    footer {
+        clear: both;
+        background-color: green;
+        text-align: center;
+        width: 800px;
+        padding-bottom: 20px;
+    }

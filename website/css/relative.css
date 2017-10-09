@@ -1,48 +1,61 @@
-body { width: 800px;
+body {
+    width: 800px;
     margin: auto;
     color: white;
     position:relative
     }
     
-    header {background: blue;
+    header {
+    background: blue;
     height: 50px;
     text-align: center;
     }
     
-    nav {background: green;
+    nav {
+    background: green;
     height: 25px;
     }
     
     
-    li {display: inline;
+    li {
+    display: inline;
     margin: 10px;
     }
     
-    a {color: white}
+    a {
+    color: white}
     
-    article {width: 66.7%;
+    article {
+    width: 533px;
     background: pink;
     text-align: center;
     padding-bottom: 20px;
     }
     
     section {
-    background: red;
-    height: 50px;
-    margin-top: 10px;
+        background-color: red;
+        max-width: 533px;
+        padding-bottom: 100px;
+        text-align: center;
+        margin-bottom: 20px;
     }
     
-    aside { width: 33.3%;
-    background: cyan;
-    height: 156px;
-    text-align: center;
-    position: relative;
-    bottom: 156px;
-    margin-bottom: -156px;
-    left: 66.7%;
+    aside {
+        position: relative;
+        top: -308px;
+        left: 533px;
+        background-color: cyan;
+        padding-bottom: 231px;
+        width: 267px;
+        max-width: 267px;
+        height: 74px;
+        text-align: center;
     }
     
-    footer {background-color: green;
-    height: 25px;
-    text-align: center;
+    footer {
+        position: relative;
+        top: -308px;
+        text-align: center;
+        background-color: green;
+        padding-bottom: 20px
     }

@@ -1,4 +1,4 @@
-body { width: 800px;
+body {width: 800px;
     margin: auto;
     color: white;
     position:absolute;
@@ -20,7 +20,8 @@ body { width: 800px;
     
     a {color: white}
     
-    article {width: 66.7%;
+    article {
+    width: 533px;
     background: pink;
     text-align: center;
     padding-bottom: 20px;
@@ -29,10 +30,13 @@ body { width: 800px;
     section {
     background: red;
     height: 50px;
+    max-width: 533px;
     margin-top: 10px;
+    text-align: center
     }
     
-    aside { width: 33.3%;
+    aside {
+    width: 33.3%;
     background: cyan;
     height: 156px;
     text-align: center;
@@ -41,7 +45,8 @@ body { width: 800px;
     top: 29.3%;
     }
     
-    footer {background-color: green;
+    footer {
+    background-color: green;
     height: 25px;
     text-align: center;
     }
